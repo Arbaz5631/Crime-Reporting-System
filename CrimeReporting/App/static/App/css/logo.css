@@ -1,12 +1,13 @@
 .logo{width:130px;
      height:100px;
-
-}
+    padding:7px 5px; 
+    }
 
 #nav__heading{
     padding-top:30px;
 }
 #nav{
-    margin:3px;
+    margin:1px;
     border-radius: 2px;
+    height:100px;
 }
