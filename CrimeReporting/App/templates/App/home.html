@@ -1,0 +1,73 @@
+{% extends 'App/main.html' %}
+
+{%load static%}
+{%block body %}
+<div class="home__image">
+    <img class="home__image" src="{% static 'App/images/crime.jpg'%}"> 
+
+</div>
+
+<div>
+    <hr>
+<hr>
+    <h3 id="crime__heading">CRIME TYPES</h3>
+    <hr>
+<hr>
+    <div class="crime__div">
+        <div class="row1">
+            <div class="crime__card">
+                <img class="card__image" src="https://source.unsplash.com/400x400/?Persoanl Crime" alt="crime image">
+                <div>
+                    <h5>Personal Crime</h5>
+                    <p>This is personal Crime</p>
+                </div>
+            </div>
+            <div class="crime__card">
+                
+                <img class="card__image" src="https://source.unsplash.com/400x400/?Proerty crime" alt="crime image">
+                <div>
+                    <h5>Proerty crime</h5>
+                    <p>This is Proerty crime</p>
+                </div>
+            </div>
+            <div class="crime__card">
+                
+                <img class="card__image" src="https://source.unsplash.com/400x400/?Inchoate crime" alt="crime image">
+                <div>
+                    <h5>Inchoate crime</h5>
+                    <p>This is Inchoate crime</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row2">
+            <div class="crime__card">
+                <img class="card__image" src="https://source.unsplash.com/400x400/?Statutory Crime" alt="crime image">
+                <div>
+                    <h5>Statutory Crime</h5>
+                    <p>This is Statutory Crime</p>
+                </div>
+            </div>
+            <div class="crime__card">
+                
+                <img class="card__image" src="https://source.unsplash.com/400x400/?Felony Crime" alt="crime image">
+                <div>
+                    <h5>Felony Crime</h5>
+                    <p>This is Felony Crime</p>
+                </div>
+            </div>
+            <div class="crime__card">
+                
+                <img class="card__image" src="https://source.unsplash.com/400x400/?Misdemeanor Crime" alt="crime image">
+                <div>
+                    <h5>Misdemeanor Crime</h5>
+                    <p>This is Misdemeanor Crime</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
