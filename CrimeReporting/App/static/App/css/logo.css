@@ -27,3 +27,8 @@
 .button:hover{
     background-color:skyblue;
 }
+
+.footer{
+    padding-top:30px;
+    height:100px;
+}
