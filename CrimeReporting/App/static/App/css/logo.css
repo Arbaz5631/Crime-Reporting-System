@@ -12,3 +12,18 @@
     height:90px;
     border:2px double rgb(31, 16, 16)
 }
+
+.buttons__nav{
+    display:flex;
+    margin-left: 300px;
+    margin-left:auto;
+}
+
+.button{
+    border-radius:5px;
+   background-color: slategray ;
+    
+}
+.button:hover{
+    background-color:skyblue;
+}
